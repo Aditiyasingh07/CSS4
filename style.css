@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+    background-image: linear-gradient(to right, red, green, yellow);
+    text-align: center;
+    text-decoration: underline;
+}
+.box2{
+    background-color: rgb(4, 127, 127);
+    border: 2px solid red;
+    width: 70%;
+    border-radius: 10px;
+    margin: auto;
+}
+.box2 ul{
+    list-style-position: inside;
+    margin-left: 37%;
+}
+.box2 span{
+    margin-left: 80px;
+}
+.box2 .home{
+    margin-left: 95px;
+}
+.box3{
+    display: grid;
+    height: 127px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    position: relative;
+    border: 1px solid brown;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.box{
+    width: 400px;
+    height:60px;
+    text-align: center;
+    background-color: aqua;
+    padding: 2px 10px;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+.lastbox{
+    position: absolute;
+    top: 60px;
+}
+.box4{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline red;
+    margin: 30px 0 20px 0;
+    height: 40px;
+    font-size: 1.2rem;
+    background-image: linear-gradient(to right, red, yellow, red);
+}
+.box5{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    border: 2px solid green;
+    height: 300px;
+    background-image: radial-gradient(blue, lightgreen);
+}
+.box5 .box5-item{
+    margin-left: 40px;
+    height: 110px;
+    border-radius: 20px;
+    width: 230px;
+    padding: 0px 20px 10px 20px;
+    text-align: center;
+    border: 2px solid red;
+    background-color: yellow;
+}
+.box5 .box5-item p{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    color: red;
+}
+.box6{
+    display: grid;
+    margin: 30px 0 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas: "item1 item1 item1 item1"
+                         "item2 item3 item4 item5"
+                         "item6 item6 item6 item5"
+                         "item7 item7 item7 item7";
+    column-gap: 10px;
+    row-gap: 20px;
+    border: 2px solid green;
+}
+.box6 .item{
+    color: white;
+}
+.box6 .item1{
+    font-weight: bold;
+    height: 40px;
+    background-color: red;
+    font-size: 1.4rem;
+    text-align: center;
+    grid-area: item1;
+}
+.item2{
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 1.7rem;
+    grid-area: item2;
+}
+.item3{
+    background-color: lightskyblue;
+    grid-area: item3;
+    font-size: 1.7rem;
+}
+.item4{
+    background-color: blue;
+    grid-area: item4;
+    font-size: 1.3rem;
+}
+.item5{
+    background-color: #2f2e2e;
+    grid-area: item5;
+    width: 70px;
+    list-style: inside;
+}
+.item6{
+    background-color: orange;
+    grid-area: item6;
+    font-size: 1.3rem;
+    height: 120px;
+}
+.box6 .item7{
+    color: black;
+    background-color: rgb(1, 118, 118);
+    grid-area: item7;
+    text-align: center;
+    height: 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
