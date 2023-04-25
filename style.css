@@ -3,31 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    margin: 0 20px 0 0px;
+}
 .box1{
     background-image: linear-gradient(to right, red, green, yellow);
     text-align: center;
     text-decoration: underline;
 }
 .box2{
-    background-color: rgb(4, 127, 127);
-    border: 2px solid red;
-    width: 70%;
-    border-radius: 10px;
-    margin: auto;
-}
-.box2 ul{
-    list-style-position: inside;
-    margin-left: 37%;
-}
-.box2 span{
-    margin-left: 80px;
-}
-.box2 .home{
-    margin-left: 95px;
+        border: 2px solid red;
+        width:800px;
+        margin: 10px 0 10px 22%;
+        height: 60px;
+        border-radius: 20px;
+        background-color:aqua ;
+        text-align: center;
+        padding:0 290PX 0 290PX;
 }
 .box3{
     display: grid;
-    height: 127px;
+    height: 121px;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     position: relative;
@@ -84,7 +80,7 @@
 }
 .box6{
     display: grid;
-    margin: 30px 0 10px 10px;
+    margin: 30px 0 10px 0;
     grid-auto-flow: row;
     grid-template-areas: "item1 item1 item1 item1"
                          "item2 item3 item4 item5"
